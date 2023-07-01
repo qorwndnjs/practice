@@ -1,0 +1,15 @@
+#숫자 맞추기
+import random
+
+num = random.randint(1, 101)
+
+while True: #무한반복
+    num1 = int(input('숫자 입력: '))
+
+    if num1 < num:
+        print("너무 낮음")
+    elif num1 > num:
+        print("너무 높음")
+    else:
+        print('정답')
+        break
