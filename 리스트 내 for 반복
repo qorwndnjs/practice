@@ -1,0 +1,7 @@
+persons=['a','b','c','d']
+restaurants=['korean','french','chinese']
+locations=['seoul','busan']
+for person in persons:
+  for restaurant in restaurants:
+    for location in locations:
+      print(f'{person} went {restaurant}restaurant in {location}')
